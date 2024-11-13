@@ -4,4 +4,10 @@ valor_compra = 500
 desconto = 10
 cupom = "PAULAÉ10"
 
-print("Olá, " + nome + ". Em " + mes + " você realizou uma compra no valor de R$" + str(valor_compra) + " e ganhou um desconto de " + str(desconto) + "% em sua próxima compra. Use o cupom " + cupom + ".")
+tipo_valor = type(nome)
+
+
+print(f"O valor original da compra é R${valor_compra}. Com um desconto de {desconto}%, o preço final é R${valor_compra * (1 - desconto / 100):.2f}.")
+
+
+print(tipo_valor)
