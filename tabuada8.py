@@ -7,5 +7,4 @@ def tabuadaDo8():
         resultado = numero * i
         print(f"{numero} x {i} = {resultado}")
 
-
 tabuadaDo8()
