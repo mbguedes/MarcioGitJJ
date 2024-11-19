@@ -6,6 +6,10 @@ def calcularIdadePet ():
     
     if portePet == 1: print(input(f"Olá, a idade humana do {nomePet} é {idadePet * 7} e nos últimos 12 meses o lucro com este animal foi de R${qtdBanho*55} conosco"))
     elif portePet == 2: print(input(f"Olá, a idade humana do {nomePet} é {idadePet * 7} e nos últimos 12 meses o lucro com este animal foi de R${qtdBanho*45} conosco"))
+<<<<<<< HEAD
     elif portePet == 3: print(input(f"Olá, a idade humana do {nomePet} é {idadePet * 7} e nos últimos 12 meses o lucro com este animal foi de R${qtdBanho*45}conosco"))
+=======
+    elif portePet == 3: print(input(f"Olá, a idade humana do {nomePet} é {idadePet * 7} e nos últimos 12 meses o lucro com este animal foi de R${qtdBanho*45} conosco"))
+>>>>>>> 498f861cb764a6a0957a900c30ecbb0a4c926b6b
 
 calcularIdadePet()
